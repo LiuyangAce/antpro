@@ -51,12 +51,12 @@ export default [
     path: '/list',
     component: './TableList',
   },
-  // {
-  //   name: 'list.table-list',
-  //   icon: 'table',
-  //   path: '/list',
-  //   component: './TableList',
-  // },
+  {
+    name: 'list.auto-build',
+    icon: 'table',
+    path: '/auto-build',
+    component: './AutoBuild',
+  },
   {
     path: '/',
     redirect: '/welcome',
