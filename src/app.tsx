@@ -107,7 +107,6 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
       // if (initialState?.loading) return <PageLoading />;
       return (
         <>
-        <div>xxxxxxx</div>
           {children}
           <SettingDrawer
             disableUrlParams

@@ -243,7 +243,6 @@ const TableList: React.FC = () => {
 
   return (
     <PageContainer>
-      <div>liuyyh</div>
       <ProTable<API.RuleListItem, API.PageParams>
         headerTitle={intl.formatMessage({
           id: 'pages.searchTable.title',
@@ -292,6 +291,7 @@ const TableList: React.FC = () => {
             </div>
           }
         >
+          {/* 批量删除、批量审批按钮 */}
           <Button
             onClick={async () => {
               await handleRemove(selectedRowsState);
